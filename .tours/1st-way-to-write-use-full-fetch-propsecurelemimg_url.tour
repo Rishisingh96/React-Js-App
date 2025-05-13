@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "1st way to write use full fetch propse.curElem.img_url",
+  "steps": [
+    {
+      "file": "src/components/MoveCard.jsx",
+      "description": "This is fist way ",
+      "line": 5
+    }
+  ]
+}
