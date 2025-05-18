@@ -1,3 +1,5 @@
+import React from 'react';
+// import Index from './components/Index'; // ✅ No curly braces
 import NetflixMove from "./components/NetflixMoves";
 // import { EventHandling } from "./components/EventHandling";
 // import { EventProps } from "./components/EventProps";
@@ -8,6 +10,8 @@ import './components/EV.css';
 // import { State } from "./components/hooks/State";
 import "./components/Netflix.module.css";
 import { Todo } from './components/projects/Todo/Todo';
+import { Index } from "./components/Index";
+
 // import { ToggleSwitch } from './components/projects/ToggleSwitch/ToggleSwitch';
 // import "./components/Netflix.css";
 export const App = () => {
@@ -25,6 +29,7 @@ export const App = () => {
         {/* <DeriveState /> */}
         {/* <ToggleSwitch /> */}
         {/* <Todo /> */}
+        <Index />
       </section>
   ); 
 };
