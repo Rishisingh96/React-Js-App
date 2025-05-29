@@ -28,8 +28,8 @@ export const App = () => {
         {/* <State /> */}
         {/* <DeriveState /> */}
         {/* <ToggleSwitch /> */}
-        {/* <Todo /> */}
-        <Index />
+        <Todo />
+        {/* <Index /> */}
       </section>
   ); 
 };
