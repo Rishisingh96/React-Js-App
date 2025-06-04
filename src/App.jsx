@@ -11,6 +11,7 @@ import './components/EV.css';
 import "./components/Netflix.module.css";
 import { Todo } from './components/projects/Todo/Todo';
 import { Index } from "./components/Index";
+import { Help } from './components/projects/Todo/Help';
 
 // import { ToggleSwitch } from './components/projects/ToggleSwitch/ToggleSwitch';
 // import "./components/Netflix.css";
@@ -30,6 +31,7 @@ export const App = () => {
         {/* <ToggleSwitch /> */}
         <Todo />
         {/* <Index /> */}
+        {/* <Help /> */}
       </section>
   ); 
 };
