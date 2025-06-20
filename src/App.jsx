@@ -12,8 +12,13 @@ import "./components/Netflix.module.css";
 import { Todo } from './components/projects/Todo/Todo';
 import { Index } from "./components/Index";
 import { Help } from './components/projects/Todo/Help';
+import { TodoList } from './components/projects/Todo Final/TodoList';
 
-// import { ToggleSwitch } from './components/projects/ToggleSwitch/ToggleSwitch';
+import { ToggleSwitch } from './components/projects/ToggleSwitch/ToggleSwitch';
+import ShortCircuitExample from './components/hooks/ShortCircuit';
+import { Counter } from './components/hooks/useState/Counter';
+import Challenge from './components/hooks/useState/Chalenge';
+// import { Counter } from './components/hooks/useState/Count';
 // import "./components/Netflix.css";
 export const App = () => {
   //using Fragment method remove extra div
@@ -29,9 +34,13 @@ export const App = () => {
         {/* <State /> */}
         {/* <DeriveState /> */}
         {/* <ToggleSwitch /> */}
-        <Todo />
+        {/* <Todo /> */}
         {/* <Index /> */}
         {/* <Help /> */}
+        {/* <TodoList /> */}
+        {/* <ShortCircuitExample /> */}
+        {/* <Counter /> */}
+        <Challenge />
       </section>
   ); 
 };
