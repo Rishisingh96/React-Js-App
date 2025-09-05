@@ -18,13 +18,15 @@ import { ToggleSwitch } from './components/projects/ToggleSwitch/ToggleSwitch';
 import ShortCircuitExample from './components/hooks/ShortCircuit';
 import { Counter } from './components/hooks/useState/Counter';
 import Challenge from './components/hooks/useState/Chalenge';
+import { RegistrationForm } from './components/hooks/useState/Registration';
+import { LoginForm } from './components/hooks/useState/LoginForm';
 // import { Counter } from './components/hooks/useState/Count';
 // import "./components/Netflix.css";
 export const App = () => {
   //using Fragment method remove extra div
   return(
-      <section className="container">
-        <h1 className="card-heading">List of Best Netflix Series</h1>
+      <section>
+        {/* <h1 className="card-heading">List of Best Netflix Series</h1> */}
         {/* <NetflixMove />; */}
         {/* <EventHandling/> */}
         {/* <EventProps/> */}
@@ -40,7 +42,9 @@ export const App = () => {
         {/* <TodoList /> */}
         {/* <ShortCircuitExample /> */}
         {/* <Counter /> */}
-        <Challenge />
+        {/* <Challenge /> */}
+        {/* <RegistrationForm /> */}
+        <LoginForm />
       </section>
   ); 
 };

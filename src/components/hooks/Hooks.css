@@ -1,0 +1,115 @@
+/* index.css */
+
+/* Container */
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+.container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.container p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #444;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="password"],
+input[type="phone"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 15px;
+    transition: border 0.3s ease;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Terms Paragraph */
+.container a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+/* Button */
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Summary Section */
+.summary {
+    background-color: #f8f9fa;
+    padding: 20px 30px;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 30px auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    font-size: 16px;
+    color: #333;
+}
+
+.summary span {
+    font-weight: bold;
+    color: #007bff;
+    margin: 0 5px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+
+    .container,
+    .summary {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
