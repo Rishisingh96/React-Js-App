@@ -20,6 +20,13 @@ import { Counter } from './components/hooks/useState/Counter';
 import Challenge from './components/hooks/useState/Chalenge';
 import { RegistrationForm } from './components/hooks/useState/Registration';
 import { LoginForm } from './components/hooks/useState/LoginForm';
+import { ContactFrom } from './components/hooks/useState/ContactFrom';
+import { ReactUseEffect } from './components/hooks/UseEffect/LearnUseEffect';
+import Timer from './components/hooks/UseEffect/Timer';
+import { Challenge2 } from './components/hooks/UseEffect/Chalenge2';
+import { CleanUp } from './components/hooks/UseEffect/CleanUp';
+import { HowNotToFetchApi } from './components/hooks/UseEffect/HowNotToFetchApi';
+
 // import { Counter } from './components/hooks/useState/Count';
 // import "./components/Netflix.css";
 export const App = () => {
@@ -44,7 +51,13 @@ export const App = () => {
         {/* <Counter /> */}
         {/* <Challenge /> */}
         {/* <RegistrationForm /> */}
-        <LoginForm />
+        {/* <LoginForm /> */}
+        {/* <ContactFrom /> */}
+        {/* <ReactUseEffect /> */}
+        {/* <Timer /> */}
+        {/* <Challenge2 /> */}
+        {/* <CleanUp /> */}
+        <HowNotToFetchApi />
       </section>
   ); 
 };
