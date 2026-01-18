@@ -26,6 +26,12 @@ import Timer from './components/hooks/UseEffect/Timer';
 import { Challenge2 } from './components/hooks/UseEffect/Chalenge2';
 import { CleanUp } from './components/hooks/UseEffect/CleanUp';
 import { HowNotToFetchApi } from './components/hooks/UseEffect/HowNotToFetchApi';
+import { ForwardRefs } from './components/hooks/useRefs/ForwardRefs';
+import { UseId } from './components/hooks/UseId';
+import { ParentComponent } from './components/PropDrilling';
+import { Home } from './components/hooks/ContextAPI/Home';
+import { About } from './components/hooks/ContextAPI/About';
+import { BioProvider } from './components/hooks/ContextAPI';
 
 // import { Counter } from './components/hooks/useState/Count';
 // import "./components/Netflix.css";
@@ -57,7 +63,17 @@ export const App = () => {
         {/* <Timer /> */}
         {/* <Challenge2 /> */}
         {/* <CleanUp /> */}
-        <HowNotToFetchApi />
+        {/* <HowNotToFetchApi /> */}
+        {/* <ForwardRefs /> */}
+        {/* <UseId /> */}
+        {/* <ParentComponent /> */}
+
+
+        <BioProvider>
+          <Home />
+          <About />
+        </BioProvider>
+
       </section>
   ); 
 };
