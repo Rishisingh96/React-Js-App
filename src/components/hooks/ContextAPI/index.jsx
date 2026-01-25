@@ -1,4 +1,4 @@
-import { createContext } from "react";
+import { createContext, use } from "react";
 
 // Step 1: Create Context
 export const BioContext = createContext();
@@ -16,3 +16,13 @@ export const BioProvider = ({ children }) => {
     </BioContext.Provider>
   );
 };
+
+
+// custom hooks 
+export const useBioContext =() =>{
+  const context = use(BioContext);
+  if(context === undefined){
+    throw new Error("useBioContext must be used within a BioProvider");
+  }
+  return context;
+}

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 // import Index from './components/Index'; // ✅ No curly braces
 import NetflixMove from "./components/NetflixMoves";
 // import { EventHandling } from "./components/EventHandling";
@@ -6,7 +6,7 @@ import NetflixMove from "./components/NetflixMoves";
 // import { EventPropagation } from "./components/EventPropagation";
 
 // import { DeriveState } from './components/DerivedState';
-import './components/EV.css';
+import "./components/EV.css";
 // import { State } from "./components/hooks/State";
 import "./components/Netflix.module.css";
 import { Todo } from './components/projects/Todo/Todo';
@@ -32,13 +32,14 @@ import { ParentComponent } from './components/PropDrilling';
 import { Home } from './components/hooks/ContextAPI/Home';
 import { About } from './components/hooks/ContextAPI/About';
 import { BioProvider } from './components/hooks/ContextAPI';
+import { Services } from "./components/hooks/ContextAPI/Services";
 
 // import { Counter } from './components/hooks/useState/Count';
 // import "./components/Netflix.css";
 export const App = () => {
   //using Fragment method remove extra div
-  return(
-      <section>
+  return (
+      <>
         {/* <h1 className="card-heading">List of Best Netflix Series</h1> */}
         {/* <NetflixMove />; */}
         {/* <EventHandling/> */}
@@ -72,8 +73,8 @@ export const App = () => {
         <BioProvider>
           <Home />
           <About />
+          <Services />
         </BioProvider>
-
-      </section>
+      </>
   ); 
 };
