@@ -1,38 +1,42 @@
 import React from "react";
 // import Index from './components/Index'; // ✅ No curly braces
-import NetflixMove from "./components/NetflixMoves";
+// import NetflixMove from "./components/NetflixMoves";
 // import { EventHandling } from "./components/EventHandling";
 // import { EventProps } from "./components/EventProps";
 // import { EventPropagation } from "./components/EventPropagation";
 
 // import { DeriveState } from './components/DerivedState';
-import "./components/EV.css";
+// import "./components/EV.css";
 // import { State } from "./components/hooks/State";
-import "./components/Netflix.module.css";
-import { Todo } from './components/projects/Todo/Todo';
-import { Index } from "./components/Index";
-import { Help } from './components/projects/Todo/Help';
-import { TodoList } from './components/projects/Todo Final/TodoList';
+// import "./components/Netflix.module.css";
+// import { Todo } from './components/projects/Todo/Todo';
+// import { Index } from "./components/Index";
+// import { Help } from './components/projects/Todo/Help';
+// import { TodoList } from './components/projects/Todo Final/TodoList';
 
-import { ToggleSwitch } from './components/projects/ToggleSwitch/ToggleSwitch';
-import ShortCircuitExample from './components/hooks/ShortCircuit';
-import { Counter } from './components/hooks/useState/Counter';
-import Challenge from './components/hooks/useState/Chalenge';
-import { RegistrationForm } from './components/hooks/useState/Registration';
-import { LoginForm } from './components/hooks/useState/LoginForm';
-import { ContactFrom } from './components/hooks/useState/ContactFrom';
-import { ReactUseEffect } from './components/hooks/UseEffect/LearnUseEffect';
-import Timer from './components/hooks/UseEffect/Timer';
-import { Challenge2 } from './components/hooks/UseEffect/Chalenge2';
-import { CleanUp } from './components/hooks/UseEffect/CleanUp';
-import { HowNotToFetchApi } from './components/hooks/UseEffect/HowNotToFetchApi';
-import { ForwardRefs } from './components/hooks/useRefs/ForwardRefs';
-import { UseId } from './components/hooks/UseId';
-import { ParentComponent } from './components/PropDrilling';
-import { Home } from './components/hooks/ContextAPI/Home';
-import { About } from './components/hooks/ContextAPI/About';
-import { BioProvider } from './components/hooks/ContextAPI';
-import { Services } from "./components/hooks/ContextAPI/Services";
+// import { ToggleSwitch } from './components/projects/ToggleSwitch/ToggleSwitch';
+// import ShortCircuitExample from './hooks/ShortCircuit';
+// import { Counter } from './hooks/useState/Counter';
+// import Challenge from './hooks/useState/Chalenge';
+// import { RegistrationForm } from './hooks/useState/Registration';
+// import { LoginForm } from './hooks/useState/LoginForm';
+// import { ContactFrom } from './hooks/useState/ContactFrom';
+// import { ReactUseEffect } from './hooks/UseEffect/LearnUseEffect';
+// import Timer from './hooks/UseEffect/Timer';
+// import { Challenge2 } from './hooks/UseEffect/Chalenge2';
+// import { CleanUp } from './hooks/UseEffect/CleanUp';
+// import { HowNotToFetchApi } from './hooks/UseEffect/HowNotToFetchApi';
+// import { ForwardRefs } from './hooks/useRefs/ForwardRefs';
+// import { UseId } from './hooks/UseId';
+// import { ParentComponent } from './components/PropDrilling';
+// import { Home } from './hooks/ContextAPI/Home';
+// import { About } from './hooks/ContextAPI/About';
+// import { BioProvider } from './hooks/ContextAPI';
+// import { Services } from "./hooks/ContextAPI/Services";
+// import { DarkLight, ThemeProvider } from "./hooks/ContextAPI/DarkLight";
+import { ReducerComp } from "./hooks/UseReducer";
+import { ReactMemo } from "./hooks/Memo/ReactMemo";
+import MemoParentComponent from "./hooks/Memo/UseMemo";
 
 // import { Counter } from './components/hooks/useState/Count';
 // import "./components/Netflix.css";
@@ -69,12 +73,20 @@ export const App = () => {
         {/* <UseId /> */}
         {/* <ParentComponent /> */}
 
-
-        <BioProvider>
+        {/* <BioProvider>
           <Home />
           <About />
           <Services />
-        </BioProvider>
+        </BioProvider> */}
+
+        {/* <ThemeProvider>
+          <DarkLight />
+        </ThemeProvider> */}
+
+          {/* <ReducerComp /> */}
+
+          {/* <ReactMemo /> */}
+          <MemoParentComponent />
       </>
   ); 
 };

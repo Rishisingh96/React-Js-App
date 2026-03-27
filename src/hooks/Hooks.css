@@ -1,7 +1,7 @@
 /* index.css */
 
 /* Container */
-.container {
+/* .container {
     max-width: 500px;
     margin: 40px auto;
     background-color: #ffffff;
@@ -9,10 +9,10 @@
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+} */
 
 /* Header */
-.container h1 {
+/* .container h1 {
     text-align: center;
     color: #333;
     margin-bottom: 10px;
@@ -23,19 +23,19 @@
     color: #666;
     margin-bottom: 30px;
     font-size: 15px;
-}
+} */
 
 /* Labels */
-label {
+/* label {
     display: block;
     margin-bottom: 8px;
     color: #444;
     font-weight: 600;
     margin-top: 20px;
-}
+} */
 
 /* Input Fields */
-input[type="text"],
+/* input[type="text"],
 input[type="password"],
 input[type="phone"] {
     width: 100%;
@@ -51,20 +51,20 @@ input[type="phone"] {
 input:focus {
     border-color: #007bff;
     outline: none;
-}
+} */
 
 /* Terms Paragraph */
-.container a {
+/* .container a {
     text-decoration: none;
     font-weight: 600;
 }
 
 .container a:hover {
     text-decoration: underline;
-}
+} */
 
 /* Button */
-.btn {
+/* .btn {
     background-color: #007bff;
     color: white;
     padding: 12px 25px;
@@ -79,10 +79,10 @@ input:focus {
 
 .btn:hover {
     background-color: #0056b3;
-}
+} */
 
 /* Summary Section */
-.summary {
+/* .summary {
     background-color: #f8f9fa;
     padding: 20px 30px;
     border-radius: 12px;
@@ -97,10 +97,10 @@ input:focus {
     font-weight: bold;
     color: #007bff;
     margin: 0 5px;
-}
+} */
 
 /* Responsive */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
 
     .container,
     .summary {
@@ -112,4 +112,4 @@ input:focus {
         padding: 10px;
         font-size: 14px;
     }
-}
+} */
