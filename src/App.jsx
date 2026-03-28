@@ -37,6 +37,7 @@ import React from "react";
 import { ReducerComp } from "./hooks/UseReducer";
 import { ReactMemo } from "./hooks/Memo/ReactMemo";
 import MemoParentComponent from "./hooks/Memo/UseMemo";
+import UseCallback from "./hooks/Memo/UseCallback";
 
 // import { Counter } from './components/hooks/useState/Count';
 // import "./components/Netflix.css";
@@ -86,7 +87,8 @@ export const App = () => {
           {/* <ReducerComp /> */}
 
           {/* <ReactMemo /> */}
-          <MemoParentComponent />
+          {/* <MemoParentComponent /> */}
+          <UseCallback />
       </>
   ); 
 };
