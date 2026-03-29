@@ -88,7 +88,9 @@ export const App = () => {
 
           {/* <ReactMemo /> */}
           {/* <MemoParentComponent /> */}
+
           <UseCallback />
+          
       </>
   ); 
 };
